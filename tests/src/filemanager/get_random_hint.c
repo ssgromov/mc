@@ -32,7 +32,7 @@
 #include "lib/util.h"
 #include "lib/timer.h"
 
-#include "src/filemanager/midnight.h"
+#include "src/filemanager/filemanager.h"
 
 
 /* --------------------------------------------------------------------------------------------- */
