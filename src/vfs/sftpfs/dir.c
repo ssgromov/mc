@@ -121,7 +121,6 @@ sftpfs_readdir (void *data, GError ** mcerror)
     char mem[BUF_MEDIUM];
     LIBSSH2_SFTP_ATTRIBUTES attrs;
     sftpfs_dir_data_t *sftpfs_dir = (sftpfs_dir_data_t *) data;
-    struct vfs_dirent *sftpfs_dirent;
     int rc;
 
     mc_return_val_if_error (mcerror, NULL);
