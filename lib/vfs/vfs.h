@@ -20,7 +20,6 @@
 #include <stddef.h>
 
 #include "lib/global.h"
-#include "lib/fs.h"             /* MC_MAXPATHLEN */
 
 #include "path.h"
 
